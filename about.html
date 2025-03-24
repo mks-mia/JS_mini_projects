@@ -6,7 +6,7 @@
     <title>Java Script Mini Projects</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="font-serif">
+<body class="font-serif pt-0 mt-0">
     <section id="header" class="flex justify-between px-2 item-center my-2">
         <div class="flex">
             <img id="menu-toggle" class="cursor-pointer" src="naviicon.png" height="30px" width="30px">
@@ -31,13 +31,21 @@
     <div id="overlay" class="hidden fixed inset-0 bg-gray-300 bg-opacity-50 z-10"></div>
     
     <!-- container -->
-    <section id="about" class="h-96 flex justify-items-center item-center">
-        <div class="w-full md:w-4/5 h-min p-5 m-auto border border-b-8 border-b-grey-900 rounded-lg">
-            <p class="text-xl italic">"This website showcases a collection of both completed and ongoing JavaScript-based projects, each exploring functionalities from interactive tools to more advanced features. While you can view my finished projects here, I am continuously developing new ones, applying my learning in real-time. This space reflects my ongoing professional growth and serves as a valuable resource for others interested in JavaScript development. I encourage you to visit often for updates as I continue to expand my knowledge and skills."</p>
+    <section id="about" class="h-screen flex justify-center items-center bg-stone-100">
+        <div class="w-full md:w-4/5 h-min p-5 m-auto border border-b-8 border-r-8 border-b-gray-300 border-r-gray-300 rounded-lg">
+            <p class="text-[20px]">"This website showcases a collection of both completed and ongoing JavaScript-based projects, each exploring functionalities from interactive tools to more advanced features. While you can view my finished projects here, I am continuously developing new ones, applying my learning in real-time. This space reflects my ongoing professional growth and serves as a valuable resource for others interested in JavaScript development. I encourage you to visit often for updates as I continue to expand my knowledge and skills."</p>
+            <br>
+            <p class="text-[19px]">Completed projects: </p>
+            <ol>
+                <li><a href="ToDoList/index.html">1. <span class="underline">To-Do-List</span></a></li>
+                <li><a href="Calculator/index.html">2. <span class="underline">Simple Interest Calculator</span></a></li>
+                <li><a href="QRcodeGenerator/index.html">3. <span class="underline">QR Code Generator</span></a></li>
+                <li><a href="Weather/index.html">4. <span class="underline">Weather Forecast</span></a></li>
+            </ol>
         </div>
     </section>
 
-    <footer class=" absolute bottom-0 right-0 text-gray-600 text-sm  font-serif">
+    <footer class="text-gray-600 text-sm font-serif flex justify-center mt-5">
         <p>&copy; 2025 MayKhineSoe. All rights reserved.</p>
     </footer>
     
