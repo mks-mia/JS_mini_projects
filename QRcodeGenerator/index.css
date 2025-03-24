@@ -1,0 +1,38 @@
+body{
+    background-color: bisque;
+}
+button{
+    background-color: lightgray;
+    border-radius: 45%;
+    height: 40px; width: 90px;
+    border: none;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+button:active{
+    background-color: white;
+}
+img{
+    border-radius: 5px;
+    padding: 3px;
+}
+.error{
+    animation: shake 0.1s linear 5;
+}
+@keyframes shake {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-2px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

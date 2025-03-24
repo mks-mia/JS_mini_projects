@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Mini Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-serif">
+    <section id="header" class="flex justify-between px-2 item-center my-2">
+        <div class="flex">
+            <img id="menu-toggle" class="cursor-pointer" src="naviicon.png" height="30px" width="30px">
+            <div class="ms-3 text-xl">
+                <h1 class="text-2xl">My Mini Projects| About</h1>
+            </div>
+        </div>
+        <!-- <div>
+            <img id="moon" class="cursor-pointer" src="moon.png" height="25px" width="25px" onclick="DarkMode()">
+        </div> -->
+    </section>
+
+    <!-- Sidebar -->
+    <div id="side-menu" class="fixed top-0 left-0 bottom-0 bg-stone-700 border-r-white p-5 text-white w-60 z-20 transform -translate-x-full transition-transform duration-300"> 
+        <button id="close-menu" >&times;</button>
+        <nav class="flex flex-col space-y-4 mt-5">
+            <a class="inline-block hover:border hover:rounded-lg hover:px-2" href="index.html">Home</a>
+            <a class="inline-block hover:border hover:rounded-lg hover:px-2" href="">About</a>
+            <!-- <a class="inline-block hover:border hover:rounded-lg hover:px-2" href="">Contact</a> -->
+        </nav>
+    </div> 
+    <div id="overlay" class="hidden fixed inset-0 bg-gray-300 bg-opacity-50 z-10"></div>
+    
+    <!-- container -->
+    <section id="about" class="h-96 flex justify-items-center item-center">
+        <div class="w-full md:w-4/5 h-min p-5 m-auto border border-b-8 border-b-grey-900 rounded-lg">
+            <p class="text-xl italic">"This website showcases a collection of both completed and ongoing JavaScript-based projects, each exploring functionalities from interactive tools to more advanced features. While you can view my finished projects here, I am continuously developing new ones, applying my learning in real-time. This space reflects my ongoing professional growth and serves as a valuable resource for others interested in JavaScript development. I encourage you to visit often for updates as I continue to expand my knowledge and skills."</p>
+        </div>
+    </section>
+
+    <footer class=" absolute bottom-0 right-0 text-gray-600 text-sm  font-serif">
+        <p>&copy; 2025 MayKhineSoe. All rights reserved.</p>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>

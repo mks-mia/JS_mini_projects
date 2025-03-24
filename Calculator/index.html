@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Interest Calculator</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-sky-300 font-arial">
+        <div id="back-arrow" class="left-0 top-0 bg-orange-100 rounded-md inline-block hover:bg-white">
+            <a href="../index.html"><img src="arrow.png" height="10px" width="50px"></a>
+        </div>
+        <div class="flex justify-center">
+            <div class="maindiv bg-white/60 text-black p-5 text-center border rounded-lg">
+                <h1 class="text-gray-900 text-3xl font-serif font-bold">Simple Interest Calculator</h1>
+                Amount <input type="number"  id="principal" class="border rounded-md ps-2">  <br/>
+                Rate <input type="range"  id="rate" min="1" max="20" value="10.25" step="0.25" onchange="updateRate()"> 
+                <span id="rate_val">10.25</span>% <br/>
+                No. of Years 
+                <input type="number"  id="years" class="border rounded-md ps-2" list="all">
+                <datalist id="all">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+                <br/>
+                <span id="result"></span><br>
+    
+                <button class="text-black border border-1 bg-orange-400 rounded-md hover:bg-orange-200 p-2" onclick="compute()">Compute Interest</button>
+                <button id='reset' class="hidden text-black border border-1 bg-orange-400 rounded-md hover:bg-orange-200 p-2" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        
+        <footer class=" absolute bottom-0 right-0 text-white text-sm  font-serif">
+            <p>&copy; 2025 MayKhineSoe. All rights reserved.</p>
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>

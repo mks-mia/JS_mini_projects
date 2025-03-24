@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Mini Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-serif">
+    <section id="header" class="flex justify-between px-2 item-center my-2">
+        <div class="flex">
+            <img id="menu-toggle" class="cursor-pointer" src="naviicon.png" height="30px" width="30px">
+            <div class="ms-3 text-xl">
+                <h1 class="text-2xl">My Mini Projects| Home</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sidebar -->
+    <div id="side-menu" class="fixed top-0 left-0 bottom-0 bg-stone-700 border-r-white p-5 text-white w-60 z-20 transform -translate-x-full transition-transform duration-300"> 
+        <button id="close-menu" >&times;</button>
+        <nav class="flex flex-col space-y-4 mt-5">
+            <a class="inline-block hover:border hover:rounded-lg hover:px-2" href="index.html">Home</a>
+            <a class="inline-block hover:border hover:rounded-lg hover:px-2" href="about.html">About</a>
+            <!-- <a class="inline-block hover:border hover:rounded-lg hover:px-2" href="">Contact</a> -->
+        </nav>
+    </div> 
+    <div id="overlay" class="hidden fixed inset-0 bg-gray-300 bg-opacity-50 z-10"></div>
+
+    <!-- Projects Section -->
+    <section id="projects-display-section" class="items-center p-4">
+        <div id="projects-display-container" class="grid grid-cols-2 gap-5 sm:grid-cols-3 sm:gap-3 bg-[#FBF2E8] p-4 rounded-lg">
+            <div class="box bg-white p-4 rounded-2xl border-b-8">
+                <h3 class="underline text-center">To-Do-List</h3>
+                <p>A simple and efficient task manager that lets users add, edit, delete, and track tasks. Completed tasks are marked with a strike-through and saved for future reference. The list is stored and reloaded automatically for seamless task management.</p>
+                <p>Click <a href="ToDoList/index.html" class="text-blue-500 hover:text-gray-600">here</a> to try</p>
+            </div>
+            <div class="box bg-white p-4 rounded-2xl border-b-8">
+                <h3 class="underline text-center">Calculator</h3>
+                <p>The Simple Interest Calculator helps users calculate interest based on the principal amount, interest rate, and time in years. By entering these values, users can quickly determine both the simple interest and the total amount at the end of the specified period, making it a handy tool for loan or investment calculations.</p>
+                <p>Click <a href="Calculator/index.html" class="text-blue-500 hover:text-gray-600">here</a> to try</p>
+            </div>
+            <div class="box bg-white p-4 rounded-2xl border-b-8">
+                <h3 class="underline text-center">QR Code Generator</h3>
+                <p>The QR Code Generator allows users to easily create a QR code by simply entering the link or URL they want to convert. Once the link is input, the tool instantly generates a scannable QR code, making it a convenient solution for sharing websites, contact information, or other links in a digital, easily accessible format.</p>
+                <p>Click <a href="QRcodeGenerator/index.html" class="text-blue-500 hover:text-gray-600">here</a> to try</p>
+            </div>
+            <div class="box bg-white p-4 rounded-2xl border-b-8">
+                <h3 class="underline text-center">Weather Forecast</h3>
+                <p>This Weather App allows users to check real-time weather conditions for any city. Simply enter the city name in the input box, and the app will display the current temperature, weather conditions, and other relevant details like humidity, wind speed instantly</p>
+                <p>Click <a href="Weather/index.html" class="text-blue-500 hover:text-gray-600">here</a> to try</p>
+        </div>
+    </section> 
+
+    <footer class="text-gray-600 text-sm  font-serif">
+        <p>&copy; 2025 MayKhineSoe. All rights reserved.</p>
+    </footer>
+    
+    <script src="index.js"></script>
+</body>
+</html>

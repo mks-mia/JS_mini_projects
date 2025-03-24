@@ -1,0 +1,15 @@
+body{
+    background-image: url(beach.png);
+    background-size: cover;
+}
+#back-arrow{
+    top: 0; left: 0;
+    position: fixed;
+    z-index: 100;
+}
+#back-arrow:hover{
+    background-color: #FBF2E8;
+    opacity: 0.9;
+    border: 1px solid #BFA590;
+    border-radius: 5px;
+}
