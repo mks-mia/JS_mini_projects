@@ -1,12 +1,18 @@
-# JS_mini_projects
-Welcome to my website, where I showcase a collection of both ongoing and completed JavaScript projects. Here, you’ll find a variety of applications ranging from interactive tools to more advanced features, demonstrating my continuous learning journey in JavaScript development.
+# JS Mini Projects
 
-Completed Projects:
-1.To-Do List
-2.Simple Interest Rate Calculator
-3.Weather Forecast
-4.QR Code Generator
+Welcome to my website showcasing a collection of JavaScript projects—both completed and in progress. This portfolio demonstrates my continuous learning journey in JavaScript development, featuring a variety of interactive tools and advanced applications.
 
-While you can explore these finished projects, I am actively working on new projects to further enhance my skills and apply my knowledge in real-time. Built with Tailwind CSS and Bootstrap, this site reflects my commitment to growth and serves as a valuable resource for others interested in JavaScript development. Be sure to check back often for updates as I continue to expand my expertise.
+## Completed Projects
+
+1. To-Do List  
+2. Simple Interest Rate Calculator  
+3. Weather Forecast  
+4. QR Code Generator  
+
+## About This Site
+
+Built with **Tailwind CSS** and **Bootstrap**, this site reflects my commitment to growth and serves as a valuable resource for others interested in JavaScript development.I am actively working on new projects to enhance my skills and apply my knowledge in real-time. Be sure to check back often for updates as I continue to expand my expertise.
+
+## Try It Out
 
 For a practical experience of my website, please visit here: https://mks-mia.github.io/JS_mini_projects/index.html
